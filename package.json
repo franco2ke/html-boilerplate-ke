@@ -1,0 +1,30 @@
+{
+  "name": "html-boilerplate-ke",
+  "version": "1.0.0",
+  "description": "project base for creating maintainable, html, css and js",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "compile:sass" : "node-sass sass/main.scss css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franco2ke/html-boilerplate-ke.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "ke"
+  ],
+  "author": "Francis Wafula",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franco2ke/html-boilerplate-ke/issues"
+  },
+  "homepage": "https://github.com/franco2ke/html-boilerplate-ke#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.14.0"
+  }
+}
